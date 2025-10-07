@@ -1,0 +1,8 @@
+services:
+  kali-websec:
+    build: .
+    container_name: websec-training
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/workspace
