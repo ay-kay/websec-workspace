@@ -57,7 +57,7 @@ docker compose up -d --build
 Der Container läuft im Hintergrund. Eine interaktive `bash`-Shell wird mit dem folgenden Befehl geöffnet:
 
 ```bash
-docker compose exec websec-training bash
+docker compose exec kali-websec bash
 ```
 Nach der Ausführung wird die Willkommensnachricht im Terminal des Kali-Containers angezeigt. 🚀
 
